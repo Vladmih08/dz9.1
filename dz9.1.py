@@ -1,4 +1,4 @@
-def popular_words (text, words):
+def popular_words (text: str, words: str)->str:
     text = text.lower()
     text = text.split()
     kolvo_raz = []
